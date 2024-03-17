@@ -27,6 +27,6 @@ public class NewMatchServlet extends HttpServlet {
 
         UUID matchUUID = ongoingMatchesService.startNewGame(firstPlayer, secondPlayer);
 
-        resp.sendRedirect("/match-score?uuid="+matchUUID.toString());
+        resp.sendRedirect("/TennisScoreboard/match-score?uuid="+matchUUID.toString());
     }
 }

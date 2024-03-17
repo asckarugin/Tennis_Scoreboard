@@ -1,0 +1,247 @@
+body{
+    background-color: #dcdde1;
+    font-family: sans-serif;
+    margin: 0;
+}
+
+hr{
+    border: 1px solid gray;
+}
+.name_project{
+    text-align: center;
+    font-size: 30px;
+    background-color: #130f40;
+    padding: 30px;
+    color: white;
+}
+.navigation{
+    text-align: center;
+    font-size: large;
+}
+nav ul {
+    list-style-type: none;
+    margin: 15px;
+    padding: 0;
+}
+nav li {
+    display: inline-block;
+    margin-right: 30px;
+}
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-size: 25px;
+}
+nav a:hover {
+    color: #007bff;
+}
+
+.new_game{
+    text-align: center;
+    color: white;
+    background: #4b6584;
+    margin: 80px auto;
+    padding: 30px;
+    width: 450px;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0,0,0, 0.2);
+}
+
+.new_game input[type="text"],
+.new_game button[type="submit"]{
+    background: none;
+    color: white;
+    font-size: 16px;
+    display: block;
+    text-align: center;
+    padding: 10px;
+    margin: 20px auto;
+    border: 2px solid #686de0;
+}
+
+.new_game input[type="text"]::placeholder{
+    color: white;
+}
+
+.new_game button[type="submit"]:hover{
+    border: #686de0;
+    background: #686de0;
+    cursor: pointer;
+}
+
+img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 17px;
+    width: 10px;
+    cursor: pointer;
+}
+
+.matches-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.matches-table{
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    min-width: 400px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0,0,0, 0.15);
+}
+
+.matches-table thead tr{
+    background-color: #686de0;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    border: 1px solid gray;
+}
+
+.matches-table th,
+.matches-table td{
+    padding: 12px 15px;
+}
+
+.matches-table tbody tr{
+    border-bottom: 1px solid gray;
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+}
+
+.matches-text-container{
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    align-content: space-between;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+
+.matches-text-container form {
+    display: inline-block;
+}
+
+.matches-submit-button {
+    color: white;
+    text-decoration: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    background-color: white;
+    transition: background-color 0.3s ease;
+    margin: 0 5px;
+}
+
+.search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search_form{
+    border: 2px solid gray;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 3px;
+    overflow: hidden;
+}
+
+.search_text{
+    border: none;
+    outline: none;
+    font-size: 16px;
+}
+
+.search_btn{
+    border: none;
+}
+
+.match-special-status-div {
+    min-height: 50px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    color: #686de0;
+    font-size: 250%;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+}
+
+.scoreboard-div {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    flex-direction: row;
+    min-height: 150px;
+    gap: 80px;
+}
+
+.player-scoreboard-div {
+    display: flex;
+    flex-direction: row;
+    height: 150px;
+    width: 400px;
+    background: #686de0;
+    border-radius: 0.7em;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.player-score-cell-div {
+    text-align: center;
+    background: #4834d4;
+    border-radius: 0.9em;
+    width: 58px;
+    height: 100px;
+    padding: 1px;
+    margin: 25px 10px 25px 10px;
+}
+
+.player-name-div {
+    text-align: center;
+    width: 40%;
+    height: 90%;
+    font-size: 100%;
+    text-transform: none;
+    margin: 10px 10px 10px 10px;
+}
+
+.plus-point-button-div button[type="submit"]{
+    background: none;
+    color: white;
+    font-size: 16px;
+    display: block;
+    text-align: center;
+    padding: 10px;
+    margin: 20px auto;
+    border: 2px solid #4834d4;
+}
+
+.plus-point-button-div button[type="submit"]:hover{
+    border: #4834d4;
+    background: #4834d4;
+    cursor: pointer;
+}
+
+footer{
+    position:fixed;
+    left:0;
+    bottom:0;
+    height:40px;
+    width:100%;
+    font-size: 14px;
+    padding: 10px;
+    background-color: #130f40;
+    color:aliceblue;
+}
+#wrapper{
+    padding: 20px;
+    max-width: 760px;
+    margin: auto;
+}
